@@ -1,0 +1,41 @@
+---
+title: 'STA426: Exercise 1'
+author: "Alvaro Ingold Alfonso"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Excercise 1.1
+
+A GitHub repository with the appropriate README.md file has been created and can be accessed by clicking [\textcolor{blue}{here}](https://github.com/alvaroing12/sta426exercises).
+
+## Excercise 1.2
+
+### Data sampling
+100 values are sampled from a log-normal distribution with mean $\mu$ = 1 and standard deviation $\sigma$ = 0.25, and stored in a vector "x".
+
+```{r sampleValues, echo=TRUE}
+x <- rlnorm(n = 100, meanlog = 1, sdlog = 0.25)
+```
+  
+### Histogram  
+To show the distribution of the sampled values, a histogram is plotted using the code below:
+
+```{r plotHistogram, echo=TRUE}
+hist(x = x, main = "Histogram of sample", breaks = 10)
+```
+
+The resulting sample has a mean $\mu$ = `r round(mean(x), 3)` and a variance $\sigma^2$ = `r round(var(x), 3)`.
+  
+### Histogram on the log scale
+To show the distribution of the sampled values on the logarithmic scale, first the _log_ function must be applied to each element of the vector "x", and the resulting values are stored in a new vector called "xlog". Afterwards a histogram of "xlog" is plotted as usual.
+
+```{r plotHistogramLogScale, echo=TRUE}
+xlog <- log(x)
+hist(x = xlog, main = "Histogram of sample on log scale", breaks = 10, xlab = "log(x)")
+```
+
+The resulting sample on log scale has a mean $\mu$ = `r round(mean(xlog), 3)` and a variance $\sigma^2$ = `r round(var(xlog), 3)`.
