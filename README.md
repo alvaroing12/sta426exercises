@@ -2,7 +2,7 @@
 
 ##Intro
 
-This is my public repository to collect all the Exercises for the [*STA 426: Statistical Analysis of High-Throughput Genomic and Transcriptomic Data*][STA426 link] class, Fall Semester 2016.
+This is my public repository to collect all the Exercises for the [**STA 426: Statistical Analysis of High-Throughput Genomic and Transcriptomic Data**][STA426 link] class, Fall Semester 2016.
 
 ##Personal info
 
