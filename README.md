@@ -6,7 +6,7 @@ This is my public repository to collect all the Exercises for the [*STA 426: Sta
 
 ##Personal info
 
-![Alvaro Ingold][https://avatars1.githubusercontent.com/u/4637481 = 200x200]  
+<img src="https://avatars1.githubusercontent.com/u/4637481" alt="Alvaro Ingold" width="200" height="200" />  
 My name is Alvaro Ingold. I'm a student of the Computational Biology and Bioinformatics MSc from ETH Zürich and UZH.
 
 
